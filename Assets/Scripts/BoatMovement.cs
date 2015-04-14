@@ -17,13 +17,13 @@ public class BoatMovement : MonoBehaviour {
 
 	void Update () {
 
-		//movimento continuo della barca verso avanti
+		//movimento continuo della barca in avanti
 		transform.Translate (Vector3.forward * forwardSpeed * Time.deltaTime);
 
 		//accelerometro con velocità
 //		Vector3 force = new Vector3 (Input.acceleration.x, 0, 0);
 //		transform.Translate (force*lateralSpeed*Time.deltaTime);
-
+//
 
 		//movimento per pc
 		if (Input.GetKey(KeyCode.LeftArrow))
@@ -46,6 +46,7 @@ public class BoatMovement : MonoBehaviour {
 			Respawn();
 		}
 	}
+
 
 	void Respawn ()
 	{
