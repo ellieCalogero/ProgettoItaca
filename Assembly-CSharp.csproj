@@ -49,8 +49,11 @@
      <Compile Include="Assets\Floating Script\FloatingPhysicsCSharp.cs" />
      <Compile Include="Assets\Scripts\BoatMovement.cs" />
      <Compile Include="Assets\Scripts\Floater.cs" />
+     <Compile Include="Assets\Scripts\Manager.cs" />
      <Compile Include="Assets\Scripts\MenuInput.cs" />
      <Compile Include="Assets\Scripts\PauseInput.cs" />
+     <Compile Include="Assets\Scripts\SpawnPoint.cs" />
+     <Compile Include="Assets\Scripts\checkpoint.cs" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Floating Script\README.txt" />
