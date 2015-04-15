@@ -4,7 +4,9 @@ using System.Collections;
 
 public class PauseInput : MonoBehaviour {
 
-	public CanvasGroup canvasGroup;
+	//private Animator menuAnim;
+	//bool menuOn = false;
+
 
 	void Start ()
 	{
@@ -13,21 +15,12 @@ public class PauseInput : MonoBehaviour {
 
 	public void PauseButton ()
 	{
-		canvasGroup.alpha = 1;
-		canvasGroup.interactable = false;
-		canvasGroup.blocksRaycasts = false;
-
-
-		//Time.timeScale = 0;
-
+		Debug.Log ("TASTO PREMUTO");
 	}
 
 	public void ResumeGame ()
 	{
-		canvasGroup.alpha = 0;
-		canvasGroup.interactable = true;
-		canvasGroup.blocksRaycasts = true;
-		//Time.timeScale = 1;
+
 	}
 
 	public void Options ()
